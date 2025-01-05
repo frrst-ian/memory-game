@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import './Scoreboard.css'
 const Scoreboard = ({ score, bestScore }) => {
     return (
       <div className="container">
