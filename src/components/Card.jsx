@@ -1,9 +1,11 @@
 /* eslint-disable react/prop-types */
+import './Card.css';
+
 const Card = ({ card, onClick }) => {
   return (
-    <div onClick={onClick} className="cards">
-      <img src="card.image" alt="card.name" className="card" />
-      <h3 className="card-name">{card.name}</h3>
+    <div onClick={onClick} className="card">
+      <img src="card.image" alt="card.name" className="card-image" />
+      <h3 className="card-title">{card.name}</h3>
     </div>
   );
 };

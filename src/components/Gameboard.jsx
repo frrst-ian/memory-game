@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
+import './Gameboard.css'
 import Card from "./Card";
 
 const GameBoard = ({ onScore, onGameOver }) => {
