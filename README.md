@@ -38,7 +38,7 @@ One of the challenges I faced is structuring the components and how I will conne
 
 ## Thoughts and Observations
 
-Share any insights or reflections you have from working on the project. This could include your thoughts on the development process, design decisions etc. Looking back, I haven't really committed on making this project a complete game. I just did this to practice my react skills, specially the concept behind react states and how to fetch API in React JS.
+Looking back, I haven't really committed on making this project a complete game. I just did this to practice my react skills, specially the concept behind react states and how to fetch API in React JS.
 
 ## Future Enhancements
 
