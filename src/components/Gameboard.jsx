@@ -27,7 +27,6 @@ const GameBoard = ({ onScore, onGameOver }) => {
       const formattedCards = detailedPokemon.map(pokemon => ({
         id: pokemon.id,
         name: pokemon.name,
-        // Using official artwork for better quality images
         image: pokemon.sprites.other['official-artwork'].front_default || pokemon.sprites.front_default
       }));
       
