@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Scoreboard from './components/Scoreboard';
 import Gameboard from './components/Gameboard';
-
+import './App.css'
 function App() {
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
